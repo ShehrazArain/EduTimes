@@ -42,6 +42,7 @@ i {
 }
 
 
+
 /****** ACTUAL CSS START ******/
 
 .header {
@@ -133,4 +134,29 @@ i {
     font-size: 1.3rem;
     padding: 10px 0 20px 0;
     color: white;
+}
+
+
+
+/* ****** THREE EXTRA HEADER DIV (CARDS) ******** */
+.header-extradiv {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.extra-div {
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    /*use same box shadow*/
+    transform: translateY(-20px);
+    /*translate vertical(upper ki tarf)*/
 }
